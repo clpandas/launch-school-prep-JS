@@ -1,7 +1,5 @@
-function greetPeople() {
-  let greetingMessage = "Good Morning!";
+function greetPeople(greetingMessage) {
   console.log(greetingMessage);
 }
 
-greetPeople();
-console.log(greetingMessage);
+greetPeople("Good Morning!");
