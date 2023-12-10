@@ -6,4 +6,4 @@ let arr = [
 
 arr[1][3] = 606;
 
-console.log(arr)
+console.log(arr);
