@@ -4,6 +4,13 @@ let myProtoObj = {
 };
 
 let myObj = Object.create(myProtoObj);
+myObj.qux = 3;
 
-console.log(myObj.foo);
-console.log(myObj.bar);
+let objKeys = Object.keys(myObj);
+objKeys.forEach(function(key) {
+  console.log(key)
+});
+
+for (let key in myObj) {
+  console.log(key);
+}
