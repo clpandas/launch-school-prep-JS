@@ -12,5 +12,7 @@ objKeys.forEach(function(key) {
 });
 
 for (let key in myObj) {
+  if (myObj.hasOwnProperty(key)) {
   console.log(key);
+  }
 }
