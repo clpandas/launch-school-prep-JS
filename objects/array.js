@@ -4,8 +4,11 @@ let obj = {
   c: 3,
 };
 
+let upperKeys = [];
 let objKeys = Object.keys(obj);
-let upperKeys = objKeys.map((key) => key.toUpperCase());
+objKeys.forEach(function(key) {
+  upperKeys.push(key.toUpperCase());
+});
 
 console.log(upperKeys);
 console.log(obj);
