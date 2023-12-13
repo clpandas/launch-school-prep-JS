@@ -1,5 +1,5 @@
 function isNegativeZero(value) {
-  return 1 / value === -Infinity;
+  return (value === 0) && (1 / value === -Infinity);
 }
 
 console.log(isNegativeZero(0));
