@@ -7,3 +7,5 @@ for (let i = 0; i < cities.length; i += 1) {
   
   console.log(cities[i].length);
 }
+
+// The continue statement terminates the current iteration and continues with execution of the next iteration, allowing us to skip over elements in an array.
